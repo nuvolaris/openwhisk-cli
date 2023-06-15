@@ -207,7 +207,7 @@ func invokeAction(
 		parameters,
 		blocking,
 		result)
-	return res.(map[string]interface{}), err
+	return res, err
 }
 
 func printInvocationResponse(
